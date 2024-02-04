@@ -13,8 +13,18 @@ struct ContentView: View {
             
             HStack {
                 Color.gray
+                Label("\(currentDate())", systemImage: "calendar")
+                    .padding()
+                    .font(.headline)
             }
             .background(Color.gray)
+            .frame(height: 40)
+            
+            HStack {
+                Color.gray
+            }
+            .background(Color.gray)
+            .padding(.vertical)
 
             
             HStack {
