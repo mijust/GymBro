@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  GymBro
+//  TrainHelp
 //
 //  Created by Michael Justus on 04.02.24.
 //
@@ -20,7 +20,7 @@ struct ContentView: View {
             HStack {
                 Spacer()
                 VStack{
-                    Color.orange 
+                    Color.orange
                         .padding()
                 }
                 Spacer()

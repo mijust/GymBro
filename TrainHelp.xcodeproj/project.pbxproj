@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35A1E53C2B6FF98400C60741 /* GymBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1E53B2B6FF98400C60741 /* GymBroApp.swift */; };
-		35A1E53E2B6FF98400C60741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1E53D2B6FF98400C60741 /* ContentView.swift */; };
-		35A1E5402B6FF98500C60741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A1E53F2B6FF98500C60741 /* Assets.xcassets */; };
-		35A1E5432B6FF98500C60741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A1E5422B6FF98500C60741 /* Preview Assets.xcassets */; };
+		35A1E5562B701AB500C60741 /* TrainHelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1E5552B701AB500C60741 /* TrainHelpApp.swift */; };
+		35A1E5582B701AB500C60741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1E5572B701AB500C60741 /* ContentView.swift */; };
+		35A1E55A2B701AB600C60741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A1E5592B701AB600C60741 /* Assets.xcassets */; };
+		35A1E55D2B701AB600C60741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A1E55C2B701AB600C60741 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35A1E5382B6FF98400C60741 /* GymBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35A1E53B2B6FF98400C60741 /* GymBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymBroApp.swift; sourceTree = "<group>"; };
-		35A1E53D2B6FF98400C60741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		35A1E53F2B6FF98500C60741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35A1E5422B6FF98500C60741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35A1E5522B701AB500C60741 /* TrainHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A1E5552B701AB500C60741 /* TrainHelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainHelpApp.swift; sourceTree = "<group>"; };
+		35A1E5572B701AB500C60741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35A1E5592B701AB600C60741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35A1E55C2B701AB600C60741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35A1E5352B6FF98400C60741 /* Frameworks */ = {
+		35A1E54F2B701AB500C60741 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35A1E52F2B6FF98400C60741 = {
+		35A1E5492B701AB500C60741 = {
 			isa = PBXGroup;
 			children = (
-				35A1E53A2B6FF98400C60741 /* GymBro */,
-				35A1E5392B6FF98400C60741 /* Products */,
+				35A1E5542B701AB500C60741 /* TrainHelp */,
+				35A1E5532B701AB500C60741 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35A1E5392B6FF98400C60741 /* Products */ = {
+		35A1E5532B701AB500C60741 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35A1E5382B6FF98400C60741 /* GymBro.app */,
+				35A1E5522B701AB500C60741 /* TrainHelp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35A1E53A2B6FF98400C60741 /* GymBro */ = {
+		35A1E5542B701AB500C60741 /* TrainHelp */ = {
 			isa = PBXGroup;
 			children = (
-				35A1E53B2B6FF98400C60741 /* GymBroApp.swift */,
-				35A1E53D2B6FF98400C60741 /* ContentView.swift */,
-				35A1E53F2B6FF98500C60741 /* Assets.xcassets */,
-				35A1E5412B6FF98500C60741 /* Preview Content */,
+				35A1E5552B701AB500C60741 /* TrainHelpApp.swift */,
+				35A1E5572B701AB500C60741 /* ContentView.swift */,
+				35A1E5592B701AB600C60741 /* Assets.xcassets */,
+				35A1E55B2B701AB600C60741 /* Preview Content */,
 			);
-			path = GymBro;
+			path = TrainHelp;
 			sourceTree = "<group>";
 		};
-		35A1E5412B6FF98500C60741 /* Preview Content */ = {
+		35A1E55B2B701AB600C60741 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				35A1E5422B6FF98500C60741 /* Preview Assets.xcassets */,
+				35A1E55C2B701AB600C60741 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35A1E5372B6FF98400C60741 /* GymBro */ = {
+		35A1E5512B701AB500C60741 /* TrainHelp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35A1E5462B6FF98500C60741 /* Build configuration list for PBXNativeTarget "GymBro" */;
+			buildConfigurationList = 35A1E5602B701AB600C60741 /* Build configuration list for PBXNativeTarget "TrainHelp" */;
 			buildPhases = (
-				35A1E5342B6FF98400C60741 /* Sources */,
-				35A1E5352B6FF98400C60741 /* Frameworks */,
-				35A1E5362B6FF98400C60741 /* Resources */,
+				35A1E54E2B701AB500C60741 /* Sources */,
+				35A1E54F2B701AB500C60741 /* Frameworks */,
+				35A1E5502B701AB500C60741 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GymBro;
-			productName = GymBro;
-			productReference = 35A1E5382B6FF98400C60741 /* GymBro.app */;
+			name = TrainHelp;
+			productName = TrainHelp;
+			productReference = 35A1E5522B701AB500C60741 /* TrainHelp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35A1E5302B6FF98400C60741 /* Project object */ = {
+		35A1E54A2B701AB500C60741 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					35A1E5372B6FF98400C60741 = {
+					35A1E5512B701AB500C60741 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 35A1E5332B6FF98400C60741 /* Build configuration list for PBXProject "GymBro" */;
+			buildConfigurationList = 35A1E54D2B701AB500C60741 /* Build configuration list for PBXProject "TrainHelp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 35A1E52F2B6FF98400C60741;
-			productRefGroup = 35A1E5392B6FF98400C60741 /* Products */;
+			mainGroup = 35A1E5492B701AB500C60741;
+			productRefGroup = 35A1E5532B701AB500C60741 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35A1E5372B6FF98400C60741 /* GymBro */,
+				35A1E5512B701AB500C60741 /* TrainHelp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35A1E5362B6FF98400C60741 /* Resources */ = {
+		35A1E5502B701AB500C60741 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A1E5432B6FF98500C60741 /* Preview Assets.xcassets in Resources */,
-				35A1E5402B6FF98500C60741 /* Assets.xcassets in Resources */,
+				35A1E55D2B701AB600C60741 /* Preview Assets.xcassets in Resources */,
+				35A1E55A2B701AB600C60741 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35A1E5342B6FF98400C60741 /* Sources */ = {
+		35A1E54E2B701AB500C60741 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A1E53E2B6FF98400C60741 /* ContentView.swift in Sources */,
-				35A1E53C2B6FF98400C60741 /* GymBroApp.swift in Sources */,
+				35A1E5582B701AB500C60741 /* ContentView.swift in Sources */,
+				35A1E5562B701AB500C60741 /* TrainHelpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		35A1E5442B6FF98500C60741 /* Debug */ = {
+		35A1E55E2B701AB600C60741 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		35A1E5452B6FF98500C60741 /* Release */ = {
+		35A1E55F2B701AB600C60741 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,14 @@
 			};
 			name = Release;
 		};
-		35A1E5472B6FF98500C60741 /* Debug */ = {
+		35A1E5612B701AB600C60741 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GymBro/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrainHelp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTHF94KTN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mjust.GymBro;
+				PRODUCT_BUNDLE_IDENTIFIER = mjust.TrainHelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		35A1E5482B6FF98500C60741 /* Release */ = {
+		35A1E5622B701AB600C60741 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GymBro/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrainHelp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BTHF94KTN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mjust.GymBro;
+				PRODUCT_BUNDLE_IDENTIFIER = mjust.TrainHelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35A1E5332B6FF98400C60741 /* Build configuration list for PBXProject "GymBro" */ = {
+		35A1E54D2B701AB500C60741 /* Build configuration list for PBXProject "TrainHelp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35A1E5442B6FF98500C60741 /* Debug */,
-				35A1E5452B6FF98500C60741 /* Release */,
+				35A1E55E2B701AB600C60741 /* Debug */,
+				35A1E55F2B701AB600C60741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35A1E5462B6FF98500C60741 /* Build configuration list for PBXNativeTarget "GymBro" */ = {
+		35A1E5602B701AB600C60741 /* Build configuration list for PBXNativeTarget "TrainHelp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35A1E5472B6FF98500C60741 /* Debug */,
-				35A1E5482B6FF98500C60741 /* Release */,
+				35A1E5612B701AB600C60741 /* Debug */,
+				35A1E5622B701AB600C60741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35A1E5302B6FF98400C60741 /* Project object */;
+	rootObject = 35A1E54A2B701AB500C60741 /* Project object */;
 }
